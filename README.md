@@ -11,12 +11,12 @@ Ansible role to install and configure Telegraf.
 
   vars:
     telegraf_version: "0.13.0-1"
-    
+
   roles:
-    - wunzeco.telegraf
+    - layer2pty.telegraf
 ```
 
-> **Note:** 
+> **Note:**
 >    example variables for configuring input and output plugins, see
 >    `test/input-plugins-vars.yml` and `test/output-plugins-vars.yml` respectively
 
@@ -33,4 +33,3 @@ kitchen test
 ## Dependencies
 
 none
-
